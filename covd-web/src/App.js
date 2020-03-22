@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import LatestUpdates from './LatestUpdates'
+import CountryLookup from './CountryLookup'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </h1>
         <LatestUpdates></LatestUpdates>
       </header>
+      <CountryLookup></CountryLookup>
     </div>
   );
 }
